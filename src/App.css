@@ -44,3 +44,48 @@ nav li:hover {
 .fab {
   font-size: 1.3rem;
 }
+
+/* Single Card */
+.card-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-main {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #fafafa;
+  /* background-color: red; */
+}
+
+.card-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.card-text {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.btn-card {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  border: none;
+  background: none;
+  color: #3070c9;
+  margin-top: 15px;
+}
+
+.btn-card:focus {
+  outline: none;
+}
+
+#card-special {
+  font-size: 1.5rem;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
