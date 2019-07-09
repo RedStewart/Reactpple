@@ -46,28 +46,35 @@ nav li:hover {
 }
 
 /* Single Card */
-.card-center {
+.card-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+.card-contain {
+  background-color: #fafafa;
+  color: #111111;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
 .card-main {
   text-align: center;
-  margin-top: 50px;
+  padding-top: 40px;
   background-color: #fafafa;
-  /* background-color: red; */
 }
 
 .card-title {
   margin: 0;
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
 
 .card-text {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
 }
 
 .btn-card {
@@ -77,10 +84,15 @@ nav li:hover {
   background: none;
   color: #3070c9;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .btn-card:focus {
   outline: none;
+}
+
+.btn-card-text:hover {
+  text-decoration: underline;
 }
 
 #card-special {
