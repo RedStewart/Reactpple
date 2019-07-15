@@ -1,12 +1,22 @@
 import React from 'react';
 
 // destructure props
-const SingleCard = ({ card: { title, text, imageSrc } }) => {
+const SingleCard = ({ card: { title, text, imageSrc, specialChar } }) => {
   return (
     <div className='card-contain'>
       <div className='card-main'>
         <h1 className='card-title'>
-          {title} <span id='card-special'>R</span>
+          {specialChar.text && specialChar.placement === 'left' ? (
+            <span id='card-special'>{specialChar.text}</span>
+          ) : (
+            <i className={specialChar.className} />
+          )}{' '}
+          {title}{' '}
+          {specialChar.text && specialChar.placement === 'right' ? (
+            <span id='card-special'>{specialChar.text}</span>
+          ) : (
+            ''
+          )}
         </h1>
         <p className='card-text'>{text}</p>
         <button className='btn-card'>

@@ -20,7 +20,13 @@ const Cards = () => {
         imageSrc: 'main2.png',
         specialChar: { text: 'S', placement: 'right' }
       },
-      { id: 3, imageSrc: 'main3.png' }
+      {
+        id: 3,
+        title: 'WATCH',
+        text: 'More powerful, more colourful.',
+        imageSrc: 'main3.png',
+        specialChar: { placement: 'left', className: 'fab fa-apple' }
+      }
     ]
   });
 

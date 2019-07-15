@@ -42,7 +42,7 @@ nav li:hover {
   margin: 0 auto;
 }
 
-.fab {
+.faNav {
   font-size: 1.3rem;
 }
 
@@ -89,6 +89,7 @@ nav li:hover {
   color: #3070c9;
   margin-top: 15px;
   cursor: pointer;
+  padding-bottom: 20px;
 }
 
 .btn-card:focus {
@@ -104,4 +105,14 @@ nav li:hover {
   border: 3px solid black;
   border-radius: 10px;
   text-align: center;
+  width: 25px;
+  height: 31px;
+  line-height: 32px;
+  display: inline-block;
+  position: relative;
+  top: -6px;
+}
+
+.fab .fa-apple {
+  font-size: 3rem;
 }

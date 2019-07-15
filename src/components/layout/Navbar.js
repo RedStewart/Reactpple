@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav>
         <div className='navbar'>
           <ul>
-            <li className='fab fa-apple' />
+            <li className='fab fa-apple faNav' />
             <li>Mac</li>
             <li>iPad</li>
             <li>iPhone</li>
