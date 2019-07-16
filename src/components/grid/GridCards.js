@@ -56,7 +56,7 @@ const GridCards = () => {
         text:
           'Wireless charging. Voice-activated Siri. More magical than ever.',
         imageSrc: 'grid6.png',
-        buttonStyle: 'light',
+        buttonStyle: 'dark',
         buttons: ['Learn more', 'Buy']
       }
     ]

@@ -32,13 +32,6 @@ const GridSingleCard = ({
           <span className='btn-card-text'>{btn}</span> >
         </button>
       ))}
-
-      {/* <button className='btn-card'>
-        <span className='btn-card-text'>Learn more</span> >
-      </button>
-      <button className='btn-card btn-grid'>
-        <span className='btn-card-text'>Buy</span> >
-      </button> */}
     </div>
   );
 };
