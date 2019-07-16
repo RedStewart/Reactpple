@@ -92,7 +92,7 @@ nav li:hover {
   font-size: 1.25rem;
   border: none;
   background: none;
-  color: #3070c9;
+  color: #0070c9;
   margin-top: 15px;
   cursor: pointer;
   padding-bottom: 20px;
@@ -139,10 +139,11 @@ nav li:hover {
 }
 
 .grid p {
-  margin: 0;
+  margin: 0 auto;
   font-weight: 400;
   font-size: 1.25rem;
-  line-height: 80%;
+  line-height: 130%;
+  max-width: 350px;
 }
 
 .grid button {
