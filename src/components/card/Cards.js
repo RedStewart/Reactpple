@@ -31,7 +31,7 @@ const Cards = () => {
   });
 
   return (
-    <div>
+    <div style={{ marginTop: '45px' }}>
       {productCards.currentCards.map(card => (
         <SingleCard key={card.id} card={card} />
       ))}

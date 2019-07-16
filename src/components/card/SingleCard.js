@@ -26,7 +26,6 @@ const SingleCard = ({ card: { title, text, imageSrc, specialChar } }) => {
           <span className='btn-card-text'>Buy</span> >
         </button>
       </div>
-      {/* <img className='card-img' src={require(`../../images/${imageSrc}`)} /> */}
       <img
         className='card-img'
         alt=''
