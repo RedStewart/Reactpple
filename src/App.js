@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 import Cards from './components/card/Cards';
 import GridCards from './components/grid/GridCards';
 
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Cards />
       <GridCards />
+      <Footer />
     </div>
   );
 }
