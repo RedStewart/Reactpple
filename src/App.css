@@ -55,8 +55,9 @@ nav li:hover {
 /* Single Card */
 .card-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
 }
 
 .card-contain {
@@ -130,6 +131,7 @@ nav li:hover {
   grid-gap: 0.75rem;
   text-align: center;
   padding: 0 0.75rem 0.75rem 0.75rem;
+  cursor: pointer;
 }
 
 .grid h1 {
@@ -163,6 +165,7 @@ footer {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1rem;
 }
 
 footer hr {
