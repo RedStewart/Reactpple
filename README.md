@@ -1,6 +1,6 @@
 # Reactpple
 
-Apple website clone created using ReactJS.
+Apple landing page clone created using ReactJS.
 
 #### Live Website: [Reactpple](https://reactpple.netlify.com/)
 
